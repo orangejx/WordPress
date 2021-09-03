@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+  Theme Name:     Twenty Fifteen Child
+  Theme URI:      https://kidding.pub
+  Description:    Child theme for the Twenty Fifteen theme
+  Author:         William
+  Author URI:     https://kidding.pub
+  Template:       twentyfifteen
+  Version:        0.0.1
+*/
+
+@import url("../twentyfifteen/style.css");
+
+/* 站点配色自定义 */
+
+/* Side Bar */
+.site-bar{background-color: #000b2d;}
+
+/* Avatar & CustomLogo */
+.custom-logo,.avatar img{border-radius: 50%;background-image:url(http://wlms-cdn.kidding.pub/wkp/2021/01/Avatar.png)}
+
+/* Search */
+.william-search-input{border-radius:10px;background-color:#000b2d;border-width:0.2em;color:#FFF;transition:0.5s;}
+.william-search-input::-webkit-input-placeholder{color:rgba(255,255,255,0.7);}
+.william-search-input:focus{border-width:0.2em;border-color:#FFF;}
+/* Top Menu */
+.william-top-menu a{color:rgba(255,255,255,0.7);}
+.william-top-menu a:hover{color:#FFF;}
+/* Social Network Link Menu */
+.william-SNL-menu a{color:rgba(255,255,255,0.7);}
+.william-SNL-menu a:hover{color:#FFF;}
+/* Contact */
+.william-contact-mail,.william-contact-mail:link,.william-contact-mail:hover,.william-contact-mail:visited,.william-contact-mail:active{border-bottom:none;}
+
+@media screen and (max-width:954px){
+  /* Search */
+  .william-search-input{background-color:#202020;}
+  .william-search-input:focus{border-width:0.2em;border-color:#FFF;}
+
+}
